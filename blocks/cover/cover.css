@@ -1,0 +1,11 @@
+.cover {
+  position: relative;
+  margin: 92px auto 0;
+  padding: 195px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+}
