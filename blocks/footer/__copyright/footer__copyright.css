@@ -5,3 +5,10 @@
   line-height: 16px;
   color: white;
 }
+
+
+@media (max-width: 1023px) {
+  .footer__copyright {
+    line-height: 14px;
+  }
+}

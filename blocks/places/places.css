@@ -5,3 +5,23 @@
   margin: 92px auto 0;
   max-width: 928px;
 }
+
+@media (min-width: 1280px) {
+  .places {
+    max-width: 984px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .places {
+    max-width: 720px;
+    row-gap: 73px;
+  }
+}
+
+@media (max-width: 767px) {
+  .places {
+    max-width: 100%;
+    row-gap: 50px;
+  }
+}

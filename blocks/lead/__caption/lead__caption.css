@@ -2,7 +2,22 @@
   margin: 8px 0 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 10px;
+  line-height: 14px;
   text-transform: uppercase;
   color: white;
   letter-spacing: 1.5px;
+}
+
+@media (max-width: 1023px) {
+  .lead__caption {
+    margin: 8px auto 0;
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead__caption {
+    margin: 8px auto 0;
+    width: 288px;
+  }
 }

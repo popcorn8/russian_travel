@@ -6,3 +6,9 @@
   color: white;
   max-width: 690px;
 }
+
+@media (max-width: 1023px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}

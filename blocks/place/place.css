@@ -4,5 +4,25 @@
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
   gap: 48px 32px;
-  grid-auto-flow: column;
+}
+
+@media (min-width: 1280px) {
+  .place {
+    gap: 48px 40px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place {
+    row-gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

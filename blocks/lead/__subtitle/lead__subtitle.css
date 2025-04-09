@@ -7,3 +7,12 @@
   color: white;
   text-align: center;
 }
+
+@media (max-width: 1023px) {
+  .lead__subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px auto 40px;
+  }
+}
